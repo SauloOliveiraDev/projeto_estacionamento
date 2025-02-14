@@ -2,12 +2,15 @@
 package app;
 
 import javax.swing.*;
+
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Vector;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class RelatoriosScreen {
     private JButton btnRelatorioDiario, btnRelatorioMensal;
@@ -38,8 +41,15 @@ public class RelatoriosScreen {
         try {
             String filtroData;
             
+            long now = System.currentTimeMillis();
+            Date x = new Date(now);
+            
+            // Formatar a data no formato AAAA-MM-DD
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            String formattedDate = sdf.format(x);
+            
             if (tipo.equals("DIARIO")) {
-                filtroData = "2025-02-13%"; // Data fixa para o exemplo
+                filtroData = formattedDate+"%"; // Data fixa para o exemplo
             } else {
                 // Solicitar mês e ano ao usuário
                 String mesAno = JOptionPane.showInputDialog(
