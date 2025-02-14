@@ -1,3 +1,4 @@
+//Equipe: Saulo de Oliveira, Igor Vasconcelos, Leonardo Santos, Paulo Medeiros, Ravi Mariane
 package app;
 
 import java.sql.Connection;
