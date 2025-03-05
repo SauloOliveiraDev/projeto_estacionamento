@@ -9,3 +9,8 @@ Este é um sistema de gerenciamento de estacionamento desenvolvido em **Java** e
 - **Edição de veículos**: Permite editar os dados de um veículo já cadastrado.
 - **Remoção de veículos**: Permite remover um veículo da lista.
 - **Login de usuários**: Sistema de login com autenticação para acessar a tela de gerenciamento.
+
+## Executar Projeto
+
+- **Sem banco de dados**: Só abrir a pasta **executavel_sem_db** e abrir o executavel **.jar**.
+
