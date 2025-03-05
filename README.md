@@ -13,7 +13,8 @@ O sistema foi desenvolvido para facilitar o controle de entrada e saída de veí
 
 ## Executar Projeto
 
-- **Sem banco de dados**: Só abrir a pasta **executavel_sem_db** e abrir o executavel **.jar**. 
+- **Sem banco de dados**: Só abrir a pasta **executavel_sem_db** e abrir o executavel **.jar**.
+   
 - **Com banco de dados**: É um pouco mais complexo pois eu utilizei um banco de dados **MySql** local, ou seja, você vai ter que acessar a pasta **codigo-fonte** depois a **mysql-criacao**
   nela terá o script sql de criação do banco de dados, lembre-se de quando for cria-lo no **MySql Workbench** não colocar usuario nem senha, depois disso é abrir a pasta **executavel_db**
   e executar o **.jar**. OBS: Na tela de login o email predefinido é o "usuario@gmail" e a senha é "senha123" eles são definidos no script sql caso queira altera-lo.
