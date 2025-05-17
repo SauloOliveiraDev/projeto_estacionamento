@@ -7,7 +7,7 @@ O sistema foi desenvolvido para facilitar o controle de entrada e saída de veí
 
 - **Cadastro de veículos**: Permite registrar novos veículos no estacionamento, informando o modelo, a placa e a cor.
 - **Consulta de veículos**: Exibe uma lista dos veículos registrados no estacionamento, com possibilidade de buscar por modelo, placa ou cor.
--**Simular Pagamento**: Quando o estacionamento é finalizado o motorista tera que pagar pelo tempo que o carro ficou estacionado.
+- **Simular Pagamento**: Quando o estacionamento é finalizado o motorista tera que pagar pelo tempo que o carro ficou estacionado.
 - **Edição de veículos**: Permite editar os dados de um veículo já cadastrado.
 - **Remoção de veículos**: Permite remover um veículo da lista.
 - **Login de usuários**: Sistema de login com autenticação para acessar a tela de gerenciamento.
